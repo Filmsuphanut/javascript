@@ -1,13 +1,26 @@
 function fac(intx){
-    if(intx == 1){
+    if(intx == 0){
+        return 1
+    }else if(intx == 1){
         return 1
     }
     return intx * parseInt(fac(intx - 1));
 }
 
-console.log(fac(5));
-//console.log(x);
+function show(id,data){
+    document.getElementById(id).innerHTML = data;
+}
 
+
+var arr = [];
+
+for(var count = 0 ; count < 5; count++){
+    arr.push(count);
+}
+console.log(arr);
+
+arr.splice(1,2);
+console.log(arr);
 
 
 
