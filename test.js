@@ -1,3 +1,3 @@
-var x = prompt("hello world");
+var inp = prompt("Enter Input : ");
 
-console.log(x);
+console.log(inp);
