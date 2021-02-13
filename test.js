@@ -1,3 +1,5 @@
 var inp = prompt("Enter Input : ");
 
-console.log(inp);
+var y = Math.floor(Math.random() * inp);
+
+document.getElementById("result").innerHTML = y;
